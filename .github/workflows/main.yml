@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-
     - name: steam-workshop-upload
       uses: KlimeSE/klime-steam-workshop-upload@main
       with: 
