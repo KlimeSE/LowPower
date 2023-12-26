@@ -6,7 +6,7 @@ on:
 
 jobs:
   workshop-upload:
-    runs-on: steamcmd:root
+    runs-on: ubuntu-latest
 
     steps:
     - name: steam-workshop-upload
