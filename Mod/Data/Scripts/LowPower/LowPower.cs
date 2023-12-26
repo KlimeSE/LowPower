@@ -14,12 +14,14 @@ namespace klime.LowPower
     {
         public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
         {
+
         }
 
         public override void UpdateAfterSimulation()
         {
-
+            MyAPIGateway.Utilities.ShowNotification("LowPower", 16, "Red");
         }
+
         protected override void UnloadData()
         {
 
