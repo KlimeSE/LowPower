@@ -19,7 +19,7 @@ namespace klime.LowPower
 
         public override void UpdateAfterSimulation()
         {
-            MyAPIGateway.Utilities.ShowNotification("LowPowerABCD", 16, "Red");
+            MyAPIGateway.Utilities.ShowNotification("LowPowerABCDE", 16, "Red");
         }
 
         protected override void UnloadData()
