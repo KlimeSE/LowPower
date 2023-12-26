@@ -2,7 +2,7 @@ name: Steam Workshop Upload
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   workshop-upload:
